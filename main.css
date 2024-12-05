@@ -25,6 +25,10 @@ p.center {
 p.medium {
   font-size: medium;
 }
+
+p.highlight {
+  color: yellow;
+}
 </style>
 </head>
 <body>
@@ -34,7 +38,8 @@ p.medium {
 <p>Every paragraph will be affected by this style.</p>
 
 <p class="center">Dark Blue and center-aligned paragraph using the CSS class Selector.</p>
-<p class="center medium">This paragraph refers to two classes.</p> 
+<p class="center medium">This paragraph refers to two classes.</p>
+<p class="highlight">Note: A class name cannot start with a number!</p>
 
 </body>
 </html>
