@@ -16,6 +16,12 @@ p {
   font-family: Arial, Helvetica, sans-serif;
   font-size: 24px;
 }
+
+.center {
+  text-align: center;
+  color: darkred;
+}
+
 </style>
 </head>
 <body>
@@ -23,6 +29,8 @@ p {
 <h1>CSS</h1>
 <p>This is a paragraph.</p>
 <p>Every paragraph will be affected by this style.</p>
+
+<p class="center">Dark Red and center-aligned paragraph using the CSS class Selector.</p>
 
 </body>
 </html>
