@@ -17,11 +17,14 @@ p {
   font-size: 24px;
 }
 
-.center {
+p.center {
   text-align: center;
-  color: darkred;
+  color: darkblue;
 }
 
+p.medium {
+  font-size: medium;
+}
 </style>
 </head>
 <body>
@@ -30,7 +33,8 @@ p {
 <p>This is a paragraph.</p>
 <p>Every paragraph will be affected by this style.</p>
 
-<p class="center">Dark Red and center-aligned paragraph using the CSS class Selector.</p>
+<p class="center">Dark Blue and center-aligned paragraph using the CSS class Selector.</p>
+<p class="center medium">This paragraph will be red, center-aligned, and in a medium font-size.</p> 
 
 </body>
 </html>
