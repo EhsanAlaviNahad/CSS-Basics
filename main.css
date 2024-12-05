@@ -7,13 +7,14 @@ body {
 }
 
 h1 {
-  color: black;
+  color: darkslategray;
   text-align: center;
+  font-size: 70px;
 }
 
 p {
-  font-family: verdana;
-  font-size: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 24px;
 }
 </style>
 </head>
@@ -21,6 +22,7 @@ p {
 
 <h1>CSS</h1>
 <p>This is a paragraph.</p>
+<p>Every paragraph will be affected by this style.</p>
 
 </body>
 </html>
