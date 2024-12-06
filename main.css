@@ -50,9 +50,16 @@ hr {
 <p>Every paragraph will be affected by this style.</p>
 <hr>
 
+<h1 align="center">Class's</h1>
 <p class="center">Dark Blue and center-aligned paragraph using the CSS class Selector.</p>
 <p class="center medium">This paragraph refers to two classes.</p>
 <p><mark>A class name cannot start with a number!</mark></p>
+<hr>
+
+<h1 align="center">CSS Border Colors:</h1>
+<p align="center" + style="border: 3px solid red;">Hello World</p>
+<p align="center" + style="border: 3px solid seagreen;">Hello World</p>
+<p align="center" + style="border: 3px solid rgb(189, 225, 255);">Hello World</p>
 <hr>
 
 </body>
