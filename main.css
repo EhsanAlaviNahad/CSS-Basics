@@ -9,19 +9,17 @@ body {
 }
 
 h1 {
-  color: rgb(29, 0, 159);
+  color: rgb(0, 45, 82);
   font-size: 40px;
 }
 
 p {
   font-family: Arial, Helvetica, sans-serif;
-  color: rgb(29, 0, 159);
   font-size: 24px;
 }
 
 p.center {
   text-align: center; 
-  color: darkblue;
 }
 
 /* This is
@@ -61,6 +59,18 @@ hr {
 <p align="center" + style="border: 3px solid seagreen;">Hello World</p>
 <p align="center" + style="border: 3px solid rgb(189, 225, 255);">Hello World</p>
 <hr>
+
+<h1 align="center">Different color values </h1>
+<p>Same as color name "Tomato":</p>
+<h2 style="background-color:rgb(255, 99, 71);">rgb(255, 99, 71)</h2>
+<h2 style="background-color:#ff6347;">#ff6347</h2>
+<h2 style="background-color:hsl(9, 100%, 64%);">hsl(9, 100%, 64%)</h2>
+
+<p>Same as color name "Tomato", but 50% transparent:</p>
+<h2 style="background-color:rgba(255, 99, 71, 0.5);">rgba(255, 99, 71, 0.5)</h2>
+<h2 style="background-color:hsla(9, 100%, 64%, 0.5);">hsla(9, 100%, 64%, 0.5)</h2>
+
+<p>In addition to the predefined color names, colors can be specified using RGB, HEX, HSL, or even transparent colors using RGBA or HSLA color values.</p>
 
 </body>
 </html>
