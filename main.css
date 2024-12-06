@@ -7,13 +7,13 @@ body {
 }
 
 h1 {
-  color: darkslategray;
-  text-align: center;
-  font-size: 70px;
+  color: rgb(29, 0, 159);
+  font-size: 40px;
 }
 
 p {
   font-family: Arial, Helvetica, sans-serif;
+  color: rgb(29, 0, 159);
   font-size: 24px;
 }
 
@@ -26,20 +26,20 @@ p.medium {
   font-size: medium;
 }
 
-p.highlight {
-  color: yellow;
-}
 </style>
 </head>
 <body>
 
-<h1>CSS</h1>
+<center>
+<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/CSS3_logo_and_wordmark.svg/1452px-CSS3_logo_and_wordmark.svg.png" width="100" height="130" alt="CSS">
+</center>
+<h1>This is a Heading</h1>
 <p>This is a paragraph.</p>
 <p>Every paragraph will be affected by this style.</p>
 
 <p class="center">Dark Blue and center-aligned paragraph using the CSS class Selector.</p>
 <p class="center medium">This paragraph refers to two classes.</p>
-<p class="highlight">Note: A class name cannot start with a number!</p>
+<p><mark>A class name cannot start with a number!</mark></p>
 
 </body>
 </html>
