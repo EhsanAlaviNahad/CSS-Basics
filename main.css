@@ -51,7 +51,8 @@ hr {
 <h1 align="center">Class's</h1>
 <p class="center">Dark Blue and center-aligned paragraph using the CSS class Selector.</p>
 <p class="center medium">This paragraph refers to two classes.</p>
-<p><mark>A class name cannot start with a number!</mark></p>
+<!-- To highlight this part "background-color" is normally instead of "mark"-->
+<p><mark>Note: A class name cannot start with a number!</mark></p>
 <hr>
 
 <h1 align="center">CSS Border Colors:</h1>
