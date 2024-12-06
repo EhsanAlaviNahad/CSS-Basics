@@ -34,6 +34,13 @@ hr {
   border-color: rgb(0, 0, 49);
 }
 
+p.textbackground {
+  background-image: url('https://i.pinimg.com/originals/9e/7b/47/9e7b47982ee1b58fef26717182b4b28c.jpg');
+  background-size: cover;
+  background-position: center;
+}
+
+
 </style>
 </head>
 <body>
@@ -71,6 +78,10 @@ hr {
 <h2 style="background-color:hsla(9, 100%, 64%, 0.5);">hsla(9, 100%, 64%, 0.5)</h2>
 
 <p>In addition to the predefined color names, colors can be specified using RGB, HEX, HSL, or even transparent colors using RGBA or HSLA color values.</p>
+<hr>
+
+<h1 align="center">CSS Background Image</h1>
+<p class="textbackground">This paragraph has an image as the background!</p>
 
 </body>
 </html>
